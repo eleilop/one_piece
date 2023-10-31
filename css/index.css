@@ -28,7 +28,7 @@ section{padding: 4% 0;}
 
 /****************************** ESTILO DE NAV ******************************/
 
-nav {
+nav {position: sticky;
     top: 0;
     z-index: 999;
 }
@@ -42,17 +42,15 @@ nav {
         text-decoration: none;
         color: #FF040A;
         text-align: center;
-        padding: 14px 16px;
+        padding: 15px 15px 0px 15px;
         font-family: titulos;
-        font-size: 3.2rem;
+        font-size: 3.5rem;
         transition: 0.3s;
 }
 
-.topnav a:hover {background-color: #b89302;}
+.topnav a:hover {color: #5EB9F0;}
 
-.topnav a img {width: 49%;}
-
-.topnav .icon {display: none; padding: 57.5px;}
+.topnav .icon {display: none; padding: 27px; font-size: 50px;}
 
 @media screen and (max-width: 1450px) {
     .topnav a:not(:first-child) {display: none;}
@@ -63,7 +61,7 @@ nav {
 }
 
 @media screen and (max-width: 1450px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {position: sticky;}
     .topnav.responsive a.icon {
         position: absolute;
         right: 0;
@@ -79,10 +77,11 @@ nav {
 /****************************** HERO SECTION ******************************/
 
 #hero {background-image: url(../img/hero.jpg);
-    height: 100vh;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 3%;
+    background-position: center;
 }
 
 /****************************** SYNOPSIS ******************************/
