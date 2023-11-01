@@ -130,6 +130,7 @@ nav {position: sticky;
 }
 
 @media only screen and (width<600px) {
-    .titulo-seccion {font-size: 6rem;}
+    .titulo-seccion {font-size: 5rem;}
+    .grid6 {padding-left: 0%; padding-right: 0%;}
     .col6 {font-size: 1.3rem;}
 }
