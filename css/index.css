@@ -123,3 +123,13 @@ nav {position: sticky;
 }
 
 .col6 img {width: 100%; border-radius: 10%;}
+
+/***** RESPONSIVE *****/
+@media only screen and (width<1200px) {
+    .grid6 {grid-template-columns: 100%;}
+}
+
+@media only screen and (width<600px) {
+    .titulo-seccion {font-size: 6rem;}
+    .col6 {font-size: 1.3rem;}
+}
