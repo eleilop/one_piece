@@ -5,12 +5,18 @@
     src: url(../fonts/titulo.ttf);
 }
 
+@font-face {
+    font-family: textos;
+    src: url(../fonts/texto.ttf);
+}
+
 * {box-sizing: border-box;}
 
 html {scroll-behavior: smooth;}
 
 body {margin: 0; padding: 0;
     background-color: rgb(105, 168, 202);
+    font-family: textos;
 }
 
 #wrapper {width: 90%;
@@ -80,8 +86,24 @@ nav {position: sticky;
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 3%;
     background-position: center;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#hero a {text-decoration: none;
+        font-size: 3rem;
+        background-color: #FFCC00;
+        color: #FF040A;
+        border-radius: 20px;
+        padding: 10px;
+}
+
+#hero a:hover {background-color: rgb(105, 168, 202);
+                color: #254c80;
+                transition: 0.3s;
 }
 
 /****************************** SYNOPSIS ******************************/
