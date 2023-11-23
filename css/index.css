@@ -1,4 +1,4 @@
-/**************************** ESTILO GENERAL ****************************/
+/**************************** GENERAL ****************************/
 
 @font-face {
     font-family: titulos;
@@ -14,49 +14,61 @@
 
 html {scroll-behavior: smooth;}
 
-body {margin: 0; padding: 0;
+body {
+    margin: 0; padding: 0;
     background-color: rgb(105, 168, 202);
     font-family: textos;
 }
 
-#wrapper {width: 90%;
+#wrapper {
+    width: 90%;
     margin: auto;
 }
 
 section{padding: 4% 0;}
 
-.titulo-seccion {font-family: titulos;
+.titulo-seccion {
+    font-family: titulos;
     font-size: 7rem;
     color: #254c80;
     text-align: center;
     padding-bottom: 4%;
 }
 
-/****************************** ESTILO DE NAV ******************************/
+/****************************** NAVIGATION BAR ******************************/
 
-nav {position: sticky;
+nav {
+    position: sticky;
     top: 0;
     z-index: 999;
 }
 
-.topnav {background-color: #FFCC00;
-        overflow: hidden;
+.topnav {
+    background-color: #FFCC00;
+    overflow: hidden;
 }
 
-.topnav a {float: left;
-        display: block;
-        text-decoration: none;
-        color: #FF040A;
-        text-align: center;
-        padding: 15px 15px 0px 15px;
-        font-family: titulos;
-        font-size: 3.5rem;
-        transition: 0.3s;
+.topnav a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: #FF040A;
+    text-align: center;
+    padding: 15px 15px 0px 15px;
+    font-family: titulos;
+    font-size: 3.5rem;
+    transition: 0.3s;
 }
 
 .topnav a:hover {color: #5EB9F0;}
 
-.topnav .icon {display: none; padding: 27px; font-size: 50px;}
+.topnav .icon {
+    display: none;
+    padding: 27px;
+    font-size: 50px;
+}
+
+/*************** RESPONSIVE NAVIGATION BAR ***************/
 
 @media screen and (max-width: 1450px) {
     .topnav a:not(:first-child) {display: none;}
@@ -82,7 +94,8 @@ nav {position: sticky;
 
 /****************************** HERO SECTION ******************************/
 
-#hero {background-image: url(../img/hero.jpg);
+#hero {
+    background-image: url(../img/hero.jpg);
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,44 +106,55 @@ nav {position: sticky;
     padding-top: 10%;
 }
 
-#hero a {text-decoration: none;
-        font-size: 3rem;
-        background-color: #FFCC00;
-        color: #FF040A;
-        border-radius: 20px;
-        padding: 10px;
+#hero a {
+    text-decoration: none;
+    font-size: 3rem;
+    background-color: #FFCC00;
+    color: #FF040A;
+    border-radius: 20px;
+    padding: 10px;
 }
 
-#hero a:hover {background-color: rgb(105, 168, 202);
-                color: #254c80;
-                transition: 0.3s;
+#hero a:hover {
+    background-color: rgb(105, 168, 202);
+    color: #254c80;
+    transition: 0.3s;
 }
 
 /****************************** SYNOPSIS ******************************/
 
-.grid6 {display: grid;
+.grid6 {
+    display: grid;
     grid-template-columns: 50% 50%;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.col6 {padding-left: 3%;
-   padding-right: 3%;
-   padding-bottom: 13%;
-   color: white;
-   text-align: justify;
-   font-size: 1.8rem;
+.col6 {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 13%;
+    color: white;
+    text-align: justify;
+    font-size: 1.5rem;
 }
 
-.col6 img {width: 100%; border-radius: 10%;}
+.col6 img {
+    width: 100%;
+    border-radius: 20px;
+}
 
-/***** RESPONSIVE *****/
+/****************************** GENERAL RESPONSIVE ******************************/
+
 @media only screen and (width<1200px) {
     .grid6 {grid-template-columns: 100%;}
 }
 
 @media only screen and (width<600px) {
     .titulo-seccion {font-size: 5rem;}
-    .grid6 {padding-left: 0%; padding-right: 0%;}
+    .grid6 {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
     .col6 {font-size: 1.3rem;}
 }
