@@ -211,7 +211,7 @@ nav {
 }
 
 @media only screen and (width<600px) {
-    .titulo-seccion {font-size: 5rem;}
+    .titulo-seccion {font-size: 4rem;}
     #hero {font-size: 3rem;}
     #hero a {font-size: 2rem;}
     .grid6 {
