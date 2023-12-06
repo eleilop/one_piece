@@ -10,7 +10,7 @@
     <script src="./js/funciones.js"></script>
 </head>
 <body>
-    <!-- NAVIGATION BAR -->
+    <!-- #################### NAVIGATION BAR #################### -->
     <nav class="topnav" id="myTopnav">
         <a href="#"><img src="./img/nav.png" alt="ONE PIECE"></a>
         <a href="#synopsis">SYNOPSIS</a>
@@ -24,14 +24,14 @@
         </a>
     </nav>
 
-    <!-- HERO SECTION -->
+    <!-- #################### HERO SECTION #################### -->
     <section id="hero">
         <p>Welcome nakama!!!<br>Let's learn more about ONE PIECE</p>
         <a href="#synopsis">Explore</a>
     </section>
 
     <div id="wrapper">
-        <!-- SYNOPSIS -->
+        <!-- #################### SYNOPSIS #################### -->
         <section id="synopsis">
             <div class="titulo-seccion">
                 SYNOPSIS
@@ -59,7 +59,7 @@
         </section>
 
 
-        <!-- SEASONS -->
+        <!-- #################### ARCS #################### -->
         <section id="arcs">
             <div class="titulo-seccion">
                 ARCS
@@ -69,7 +69,7 @@
             </div>
         </section>
 
-        <!-- CHARACTERS -->
+        <!-- #################### CHARACTERS #################### -->
         <section id="characters">
             <div class="titulo-seccion">
                 CHARACTERS
@@ -79,7 +79,7 @@
             </div>
         </section>
 
-        <!-- BATTLES -->
+        <!-- #################### BATTLES #################### -->
         <section id="battles">
             <div class="titulo-seccion">
                 BATTLES
@@ -89,15 +89,75 @@
             </div>
         </section>
 
+        <!-- #################### GALLERY #################### -->
         <section id="gallery">
             <div class="titulo-seccion">
                 GALLERY
             </div>
-            <div>
-                A “Gallery” section where I’ll put some images.
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images   -->
+                <div class="mySlides fade">
+                    <img src="./img/slideshow1.jpg" style="width:100%" alt="Foto del entrenador">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./img/slideshow2.jpg" style="width:100%" alt="Foto del entrenador">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./img/slideshow3.jpg" style="width:100%" alt="Foto del entrenador">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./img/slideshow4.jpg" style="width:100%" alt="Luffy gear 5">
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+
+            <!-- PONGO EL SCRIPT AQUÍ PORQUE EN EL FICHEROS JS NO FUNCIONA CORRECTAMENTE -->
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {slideIndex = 1}    
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                }
+            </script>
         </section>
 
+        <!-- #################### FOOTER #################### -->
         <footer id="socials">
             Footer for social media and disclaimer
         </footer>
