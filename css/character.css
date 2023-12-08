@@ -111,3 +111,18 @@ nav {
     padding: 5px;
     color: white;
 }
+
+/**************************** MEDIA QUERIES ****************************/
+
+@media only screen and (width<=1000px){
+    #wrapper {width: 90%;}
+    #info img {width: 30%;}
+}
+
+@media only screen and (width<=600px){
+    #info img {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+}
