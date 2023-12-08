@@ -123,7 +123,7 @@ nav {
 
 /****************************** SYNOPSIS ******************************/
 
-.grid-synopsis {
+#grid-synopsis {
     display: grid;
     grid-template-columns: 50% 50%;
     padding-left: 10%;
@@ -146,7 +146,7 @@ nav {
 
 /****************************** CHARACTERS ******************************/
 
-.grid-characters {
+#grid-characters {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
@@ -255,7 +255,7 @@ nav {
 
 footer {background-color: #FFCC00;}
 
-.grid-footer {
+#grid-footer {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     align-items: center;
@@ -327,17 +327,17 @@ footer {background-color: #FFCC00;}
 /****************************** GENERAL RESPONSIVE ******************************/
 
 @media only screen and (width<1200px) {
-    .grid-synopsis {grid-template-columns: 100%;}
-    .grid-characters {grid-template-columns: 50% 50%;}
-    .grid-footer {grid-template-columns: 50% 50%;}
+    #grid-synopsis {grid-template-columns: 100%;}
+    #grid-characters {grid-template-columns: 50% 50%;}
+    #grid-footer {grid-template-columns: 50% 50%;}
 }
 
 @media only screen and (width<600px) {
     .section-title {font-size: 4rem;}
     #hero {font-size: 3rem;}
     #hero a {font-size: 2rem;}
-    .grid-synopsis {padding-left: 0%;padding-right: 0%;}
+    #grid-synopsis {padding-left: 0%;padding-right: 0%;}
     .col-synopsis {font-size: 1.3rem;}
-    .grid-characters {grid-template-columns: 100%;}
-    .grid-footer {grid-template-columns: 100%;}
+    #grid-characters {grid-template-columns: 100%;}
+    #grid-footer {grid-template-columns: 100%;}
 }
