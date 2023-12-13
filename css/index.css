@@ -100,15 +100,15 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: white;
-    font-size: 4rem;
     text-align: center;
-    padding-top: 10%;
 }
+
+#hero img {width: 700px;}
 
 #hero a {
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: titles;
     background-color: #FFCC00;
     color: #FF040A;
     border-radius: 20px;
@@ -200,6 +200,9 @@ nav {
     position: relative;
     margin: auto;
 }
+
+/* Hide the images by default */
+.mySlides {display: none;}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -335,8 +338,8 @@ footer {background-color: #FFCC00;}
 
 @media only screen and (width<600px) {
     .section-title {font-size: 4rem;}
-    #hero {font-size: 3rem;}
-    #hero a {font-size: 2rem;}
+    #hero img {width: 400px;padding-bottom: 30%;}
+    #hero a {font-size: 3rem;}
     #grid-synopsis {padding-left: 0%;padding-right: 0%;}
     .col-synopsis {font-size: 1.3rem;}
     #grid-characters {grid-template-columns: 100%;}
