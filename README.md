@@ -17,6 +17,6 @@ The Battles section will highlight the most epic and thrilling showdowns in One 
 ### 🖼️ 5. Gallery
 Explore the rich collection of images and artwork from One Piece in the Gallery. From official illustrations to outstanding fan art, this section will be a visual feast for fans. Immerse yourself in this vibrant and colorful world through this unique gallery!
 
-We hope you enjoy exploring this One Piece website!🏴‍☠️🌊
+🏴‍☠️🌊 We hope you enjoy exploring this One Piece website!
 
 © *This is a non-profit student project. You can check the "Credits" section for know the origin of the images used.* ©
