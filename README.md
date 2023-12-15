@@ -70,6 +70,7 @@ Explore the rich collection of images and artwork from One Piece in the Gallery.
   <li>Nav: <a href="https://www.w3schools.com/howto/howto_js_topnav.asp">From w3Schools "How to"</a></li>
   <li>Slideshow: <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp">From w3Schools "How to"</a></li>
   <li>Smooth scroll snippet: <a href="https://www.w3schools.com/howto/howto_css_smooth_scroll.asp">From w3Schools "How to"</a></li>
+  <li>Accordion: <a href="https://www.w3schools.com/howto/howto_js_accordion.asp">From w3Schools "How to"</a></li>
 </ul>
 
 We hope you enjoy exploring this One Piece website!👒🏴‍☠️
