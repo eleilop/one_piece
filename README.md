@@ -19,33 +19,29 @@ Welcome nakamas!<br>This repository hosts the development of a website dedicated
 <p>I have chosen the topic about One Piece because I really like anime in general, I just finished watching this one and I think it is the typical one that must be seen.</p>
 
 <h2 id="structure">🏗️ Structure</h2>
-<p>The website is divided into 7 sections:</p>
+<p>The website is divided into 6 sections:</p>
 <p>🚀 1. Hero Section</p>
 <p>📖 2. Synopsis</p>
-<p>📺 3. Arcs</p>
-<p>👤 4. Characters</p>
-<p>⚔️ 5. Battles</p>
-<p>🖼️ 6. Gallery</p>
-<p>👣 7. Footer</p>
+<p>👤 3. Characters</p>
+<p>⚔️ 4. Battles</p>
+<p>🖼️ 5. Gallery</p>
+<p>👣 6. Footer</p>
 
 <h3>🚀 1. Hero Section</h3>
 
 <h3>📖 2. Synopsis</h3>
 <p>The Synopsis section will provide a complete and concise narrative of the storyline. From Monkey D. Luffy's humble beginnings to the most recent events in the Grand Line, this section will be the essential guide for newcomers and a refreshing review for veterans.</p>
 
-<h3>📺 3. Arcs</h3>
-<p>Immerse yourself in the various narrative arcs that make up the epic story of One Piece. Each arc will contain details about the most significant events, key locations, and exciting moments. Fans will be able to explore their favorite arcs and relive memorable moments.</p>
-
-<h3>👤 4. Characters</h3>
+<h3>👤 3. Characters</h3>
 <p>Discover more about the fascinating characters that bring One Piece to life. Each profile will provide detailed information about the character's history, abilities, and contributions to the storyline.</p>
 
-<h3>⚔️ 5. Battles</h3>
+<h3>⚔️ 4. Battles</h3>
 The Battles section will highlight the most epic and thrilling showdowns in One Piece. From Luffy's fights to duels between powerful warriors, this area will offer detailed videos from each confrontation.
 
-<h3>🖼️ 6. Gallery</h3>
+<h3>🖼️ 5. Gallery</h3>
 Explore the rich collection of images and artwork from One Piece in the Gallery. From official illustrations to outstanding fan art, this section will be a visual feast for fans. Immerse yourself in this vibrant and colorful world through this unique gallery!
 
-<h3>👣 7. Footer</h3>
+<h3>👣 6. Footer</h3>
 
 <h2 id="style">Style</h2>
 <h3>🎨 Color palette</h3>
