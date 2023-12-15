@@ -1,4 +1,4 @@
-# ONE PIECE PROJECT 👒⚔🏴‍☠️🌊
+# 👒⚔🏴‍☠️🌊 ONE PIECE PROJECT 👒⚔🏴‍☠️🌊
 Welcome nakamas! This repository hosts the development of a website dedicated to this exciting anime and manga. Here, we present a detailed description of the main sections it contains.
 
 ## Key Sections
@@ -17,4 +17,4 @@ The Battles section will highlight the most epic and thrilling showdowns in One 
 ### 5. Gallery
 Explore the rich collection of images and artwork from One Piece in the Gallery. From official illustrations to outstanding fan art, this section will be a visual feast for fans. Immerse yourself in this vibrant and colorful world through this unique gallery!
 
-We hope you enjoy exploring this One Piece website! 👒⚔🏴‍☠️🌊
+We hope you enjoy exploring this One Piece website!
