@@ -64,6 +64,7 @@ Explore the rich collection of images and artwork from One Piece in the Gallery.
 ### 🎥 Videos
 
 <h2 id="snippets"> 💻Code snippets</h2>
+
 * Nav: <a href="https://www.w3schools.com/howto/howto_js_topnav.asp">From w3Schools "How to"</a>
 * Slideshow: <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp">From w3Schools "How to"</a>
 * Smooth scroll snippet: <a href="https://www.w3schools.com/howto/howto_css_smooth_scroll.asp">From w3Schools "How to"</a>
