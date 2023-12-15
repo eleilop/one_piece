@@ -28,6 +28,7 @@ Welcome nakamas!<br>This repository hosts the development of a website dedicated
 <p>👣 6. Footer</p>
 
 <h3>🚀 1. Hero Section</h3>
+<img src="./img/hero.jpg" alt="imagen de hero section" style="width:50%">
 
 <h3>📖 2. Synopsis</h3>
 <p>The Synopsis section will provide a complete and concise narrative of the storyline. From Monkey D. Luffy's humble beginnings to the most recent events in the Grand Line, this section will be the essential guide for newcomers and a refreshing review for veterans.</p>
