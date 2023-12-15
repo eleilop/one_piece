@@ -48,7 +48,9 @@ Explore the rich collection of images and artwork from One Piece in the Gallery.
 ### 👣 7. Footer
 
 <h2 id="style">Style</h2>
+
 ### 🎨 Color palette
+
 * 60% 🔵
 * 30% 🔴
 * 10% 🟡
