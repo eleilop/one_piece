@@ -11,8 +11,8 @@ Welcome nakamas! This repository hosts the development of a website dedicated to
 </ul>
 
 <h2 id="introduction">🌟 Introduction</h2>
-Project done by: Eloy Leiva López
-Free theme web project for the 1st evaluation of Markup Languages
+Project done by: Eloy Leiva López 
+Free theme web project for the 1st evaluation of Markup Languages 
 December 2023
 
 <h2 id="motivation">🔥 Motivation</h2>
