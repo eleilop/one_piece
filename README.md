@@ -1,5 +1,5 @@
 # ONE PIECE PROJECT 👒⚔🏴‍☠️🌊
-Welcome nakamas!<br>This repository hosts the development of a website dedicated to this exciting anime and manga. Here, we present a detailed description of the main sections it contains.
+<p>Welcome nakamas!<br>This repository hosts the development of a website dedicated to this exciting anime and manga.<br>Here, we present a detailed description of the main sections it contains.</p>
 
 ## 📚 Index
 <ul>
