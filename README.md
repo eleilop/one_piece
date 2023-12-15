@@ -20,15 +20,14 @@ Welcome nakamas!<br>This repository hosts the development of a website dedicated
 
 <h2 id="structure">🏗️ Structure</h2>
 <p>The website is divided into 7 sections:</p>
-<ol>
-  🚀<li>Hero Section</li>
-  📖<li>Synopsis</li>
-  📺<li>Arcs</li>
-  👤<li>Hero Section</li>
-  ⚔️<li>Hero Section</li>
-  🖼️<li>Hero Section</li>
-  👣<li>Hero Section</li>
-</ol>
+
+* 🚀 1. Hero Section
+* 📖 2. Synopsis
+* 📺 3. Arcs
+* 👤 4. Characters
+* ⚔️ 5. Battles
+* 🖼️ 6. Gallery
+* 👣 7. Footer
 
 <h3>🚀 1. Hero Section</h3>
 
