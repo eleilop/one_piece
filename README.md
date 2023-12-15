@@ -10,7 +10,7 @@ Welcome nakamas! This repository hosts the development of a website dedicated to
   <li><a href="#snippets">Code snippets</a></li>
 </ul>
 
-<h2 id"introduction">🌟 Introduction</h2>
+<h2 id="introduction">🌟 Introduction</h2>
 Project done by: Eloy Leiva López
 Free theme web project for the 1st evaluation of Markup Languages
 December 2023
@@ -18,7 +18,7 @@ December 2023
 <h2 id="motivation">🔥 Motivation</h2>
 I have chosen the topic about One Piece because I really like anime in general, I just finished watching this one and I think it is the typical one that must be seen.
 
-<h2 id"structure">🏗️ Structure</h2>
+<h2 id="structure">🏗️ Structure</h2>
 The website is divided into 7 sections:
 * Hero Section
 * Synopsis
