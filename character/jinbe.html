@@ -34,6 +34,28 @@
                 <p>Jinbe is a whale shark fishman who was the second captain of the Sunny Pirates after Fisher Tiger, and who became a Shichibukai eight years ago. Jinbe's name comes from jinbei-zame, which means "whale shark" in Japanese. His epithet, Kaikyou would normally translate into "Strait" or "Channel." However the kanji for it comes from a honorific used when addressing a high ranking yakuza member, thus making his epithet a Japanese pun.</p>
                 <p>During the Impel Down arc Jinbei refused to go to war with Whitebeard, getting himself locked up in Impel Down in the same cell as Ace. He then teams up with Luffy and the others to rescue Ace, and decided to give up his position as a Shichibukai.</p>
                 <p>After the Whole Cake Island Arc, Jinbe eventually ends up becoming the member of the Straw Hat Pirates, as their helmsman. He is the tenth member and the ninth to join. He permanently joins the crew shortly before they reach Onigashima.</p>
+                <button class="accordion">Spoiler</button>
+                <div class="panel">
+                    <p>During the Impel Down arc Jinbei refused to go to war with Whitebeard, getting himself locked up in Impel Down in the same cell as Ace. He then teams up with Luffy and the others to rescue Ace, and decided to give up his position as a Shichibukai.</p>
+                    <p>After the Whole Cake Island Arc, Jinbe eventually ends up becoming the member of the Straw Hat Pirates, as their helmsman. He is the tenth member and the ninth to join. He permanently joins the crew shortly before they reach Onigashima.</p>
+                </div>
+
+                <!-- ACCORDION SCRIPT -->
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                                panel.style.display = "none";
+                            } else {
+                                panel.style.display = "block";
+                            }
+                        });
+                    }
+                </script>
             </div>
         </section>
     </div>

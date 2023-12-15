@@ -40,39 +40,27 @@ function showSlides(n) {
 }
 
 /************************** SMOOTH SCROLL **************************/
-document.addEventListener("DOMContentLoaded", function() {
-  var scrollLinks = document.querySelectorAll('a[href^="#"]');
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-  scrollLinks.forEach(function(scrollLink) {
-    scrollLink.addEventListener("click", function(e) {
-      e.preventDefault();
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
 
-      var targetId = this.getAttribute("href");
+      // Store hash
+      var hash = this.hash;
 
-      if (targetId === "#") {
-        // Scroll to the top of the page
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth"
-        });
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
 
-        // Update the URL to remove the hash
-        window.history.pushState(null, null, window.location.pathname);
-      } else {
-        var targetElement = document.getElementById(targetId.substring(1));
-
-        if (targetElement) {
-          var offsetTop = targetElement.getBoundingClientRect().top + window.scrollY;
-
-          window.scrollTo({
-            top: offsetTop,
-            behavior: "smooth"
-          });
-
-          // Update the URL with the hash
-          window.history.pushState(null, null, targetId);
-        }
-      }
-    });
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
   });
 });
