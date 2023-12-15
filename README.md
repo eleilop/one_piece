@@ -51,8 +51,8 @@ Explore the rich collection of images and artwork from One Piece in the Gallery.
 <h3>🎨 Color palette</h3>
 <ul>
   <li>60% 🔵</li>
-  <li>30% 🔴</li>
-  <li>10% 🟡</li>
+  <li>30% 🟡</li>
+  <li>10% 🔴</li>
 </ul>
 
 <h3>🖋️ Fonts</h3>
